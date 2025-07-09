@@ -6,7 +6,7 @@ import altair as alt
 st.set_page_config(page_title="Weather Forecasting App", layout="wide")
 
 # --- Title and Navigation ---
-st.title("🌤️ Weather Data Web Application")
+st.title("🌤️ Weather Forecasting Web Application")
 
 tabs = st.tabs(["1. Data Processing", "2. Data Visualization", "3. Weather Prediction"])
 
@@ -100,7 +100,7 @@ with tabs[1]:
 
 # --- 3. Prediction ---
 with tabs[2]:
-    st.header("🔮 Weather Prediction (Rule-Based)")
+    st.header("🔮 Weather Prediction ")
 
     if "weather_data" in st.session_state:
         st.markdown("Provide input values below:")
