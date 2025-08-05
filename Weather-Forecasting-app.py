@@ -434,7 +434,7 @@ elif page == "4. Report Generation":
             story.append(Paragraph("Weather Prediction Report", styles['CenteredTitle']))
             story.append(Spacer(1, 0.2 * inch))
 
-            story.append(Paragraph(f"**Prediction for:**", styles['Heading']))
+            story.append(Paragraph(f"Prediction for:-", styles['Heading']))
             story.append(Spacer(1, 0.1 * inch))
             story.append(Paragraph(f"<b>Year:</b> {prediction_data['input']['Year']}", styles['InputParam']))
             story.append(Paragraph(f"<b>Month:</b> {prediction_data['input']['Month']}", styles['InputParam']))
